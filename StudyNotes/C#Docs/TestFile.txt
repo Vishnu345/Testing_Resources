@@ -1,0 +1,17 @@
+
+ The two data type float and long after arithmetic operation completely converted to nearest whole number 23.
+Precision difference for float is '7' digits 
+for double is '15' to '16' digits
+for decimal is '28' to '29' digits.
+
+The Default value of Boolean Data Type is False
+Equals checks contents and == checks memory of strings in C#
+
+string s1 = "Hello";
+string s2 = "Hello";
+string s3 = new string(s1.ToCharArray());
+
+Console.WriteLine(s1 == s2);  // True (same memory location due to string pooling)
+Console.WriteLine(s1 == s3);  // False (different memory locations)
+Console.WriteLine(s1.Equals(s2)); // True (same characters)
+Console.WriteLine(s1.Equals(s3));//True 

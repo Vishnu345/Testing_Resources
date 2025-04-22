@@ -1,0 +1,14 @@
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\bin\Debug\net8.0\CSharpDockerDemo.exe
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\bin\Debug\net8.0\CSharpDockerDemo.deps.json
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\bin\Debug\net8.0\CSharpDockerDemo.runtimeconfig.json
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\bin\Debug\net8.0\CSharpDockerDemo.dll
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\bin\Debug\net8.0\CSharpDockerDemo.pdb
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.AssemblyInfoInputs.cache
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.AssemblyInfo.cs
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.csproj.CoreCompileInputs.cache
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.dll
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\refint\CSharpDockerDemo.dll
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.pdb
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\CSharpDockerDemo.genruntimeconfig.cache
+C:\Users\Vishnu_Kolluri\Documents\Docker\DockerPractice\C#\CSharpDockerDemo\obj\Debug\net8.0\ref\CSharpDockerDemo.dll

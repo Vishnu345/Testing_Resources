@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vishnu_Kolluri\\Documents\\Docker\\DockerPractice\\SeleniumGrid\\DockerGridProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F88B069-5218-46F0-8F85-A3F3767C9229}|DockerGridProject.csproj|c:\\users\\vishnu_kolluri\\documents\\docker\\dockerpractice\\seleniumgrid\\dockergridproject\\griddemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F88B069-5218-46F0-8F85-A3F3767C9229}|DockerGridProject.csproj|solutionrelative:griddemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GridDemo.cs",
+              "DocumentMoniker": "C:\\Users\\Vishnu_Kolluri\\Documents\\Docker\\DockerPractice\\SeleniumGrid\\DockerGridProject\\GridDemo.cs",
+              "RelativeDocumentMoniker": "GridDemo.cs",
+              "ToolTip": "C:\\Users\\Vishnu_Kolluri\\Documents\\Docker\\DockerPractice\\SeleniumGrid\\DockerGridProject\\GridDemo.cs",
+              "RelativeToolTip": "GridDemo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:04:50.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

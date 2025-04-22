@@ -1,0 +1,261 @@
+plugins: used to add extra features.
+surefire(unit,build fails) vs failsafe(inte,execute post-inte even it fails)
+https://www.baeldung.com/maven-surefire-vs-failsafe
+
+https://www.baeldung.com/maven-profiles (for customized build config)
+
+maven parameterization
+https://www.baeldung.com/maven-arguments
+
+see git.epam.com
+polymorphism:
+1)compile time polymorphism: Static polymorphism: early,Static binding: method overloading 
+*(By changing number of arguments   , By changing the data type)
+*Method Overloading is not possible by changing the return type
+
+2)runtime polymorphism: dynamic ploymorphism: late,dynamic binding: method overriding, Upcasting and Downcasting
+*The covariant return type specifies that the return type may vary in the same direction as the subclass.
+parent p=new child(); (Upcasting)
+Child c=(child)new parent(); (downcasting)
+https://www.interviewbit.com/java-mcq/#number-of-primitive-data-types-in-java-are
+https://www.digitalocean.com/community/tutorials/java-collections-interview-questions-and-answers#generics-sub-typing
+
+
+
+Anonymous class
+Inner class
+lambda expressions
+Enum
+ https://www.geeksforgeeks.org/enum-in-java/
+ https://www.javatpoint.com/enum-in-java
+object class(/)
+
+class loader(/)
+application loader-class path
+extrnsion- util,lang
+bootstrap-native libraries
+
+stack 
+queue deque
+iterator types
+serialization and deserialization
+method reference
+
+3,4,5 linkedIn
+knowledge check assessment so learn
+don't inform date.
+peek.
+
+concurrent hashmapvs hashtable vs hashmap
+split(). instead
+
+AutoBoxing not happening in LinkedList
+Types of inner class
+files.lines()
+
+primitiveConversions in java8
+https://www.waytoeasylearn.com/learn/primitive-type-functional-interfaces/
+
+https://www.benchresources.net/java-8-primitive-function-functional-interface/
+
+feedback trainer, mentor, no leaves**, assessment, 
+create good impression on trainer and mentor.
+
+quiz
+
+
+*****27-03-2023*********
+
+
+
+Git:
+Git Commands
+How to raise a MR
+Rebase(/)
+Revert
+Stash
+Cherry-pick
+conflicts merge and rebase
+.gitignore
+--------------------------------------------------------------------------------------------------------
+Undoing Changes:
+Working Directory: git checkout --filename / git checkout . / git clean -xfd / git clean -f
+Staging Area (indexing): git reset -- file.txt
+Local Branch: git reset HEAD^^ (HEAD~2) / git commit --amend -m "Message" revert also
+git revert -n <sha> 
+git commit -m "message ur wish" ----to keep ur wish commit message
+Remote Repo: git revert <sha1> 
+-----------------------------------------------------------------------------------------------------------
+Git Reset:
+git reset --soft: Commit to Index(Staging Area) does nothing
+Does not touch the index file or the working tree at al
+
+https://git-scm.com/docs/git-reset
+
+git reset --hard: Delete the changes from Commit area(added-> to delete changes) same merge but safer version  
+git reset --hard <sha1>
+move to that sha1 stage.
+git reset --mixed: Commit to File System (added -> working ) keep
+--------------------------------------------------------------------------------------------------------------
+
+commit --amend is used to modify the most recent commit.
+
+It combines changes in the staging environment with the latest commit, and creates a new commit.
+
+This new commit replaces the latest commit entirely.
+--------------------------------------------------------------------------------------------------------------------
+
+Git:
+Fast Forward Merge vs Non-Fast Forward merge
+Git Tags
+https://youtu.be/govmXpDGLpo
+Read about different type of reset - soft, hard, mixed
+Stash
+RemotesBranching Strategy
+https://youtu.be/U_IFGpJDbeU
+https://www.flagship.io/git-branching-strategies/
+----------------------------------------------------------------------------------------------------------------------
+blame:
+Display the modification on each line of a file: git blame <filename>
+
+bisect
+ git bisect helps to find the faulty commit by performing a binary search on the commits 
+It reduces the time taken to find the faulty commit.
+git bisect start 
+git bisect good first commit
+git bisect bad
+
+last
+to see last commit: git log -1
+rerere (reused recorded resolution)
+
+submodule
+to add repository into another repository inorder to access it.
+
+CI (continous integration) ensures that code changes are regularly tested and merged into repo to ensure stability
+while CD (continuous delivery) allows the quick and smooth delivery of these changes, 
+so that it is deployed into a live production environment
+
+--------------------------------------------------------------------------------------------------------------------------
+MAVEN:
+
+https://www.automationdojos.com/maven-build-life-cycles-phases-and-goals/#21-executing-maven-life-cycles
+https://www.automationdojos.com/maven-common-commands-reference/
+Setup Maven project in Intellij, cli command
+Maven Build Life Cycle and Build Phases
+Group ID and Artifact ID
+Dependencies Transitive Dependencies  Cyclic Dependencies
+Plugins - SureFire Plugin, Fail Safe Plugin
+properties,Parameterization
+Maven Profiles
+maven repository: Where we download the artifacts from
+maven mirrors
+*run java through maven
+$ mvn compile exec:java -Dexec.mainClass="com.baeldung.main.Exec"
+
+Multi-Module Project ---pending
+-------------------------------------------------------------------------------------------------------------------------------------------
+Core Java
+ https://www.examsnet.com/exams/ocjp-certification-practice-online
+*Jvm,JRE,JDK
+*OOPS
+*Collections (Comparator and comparable also) Enums iterator
+*Arrays, Strings
+*Exception Handling
+*Annotations
+*Generics
+javac classname.java
+java classname
+Enumset, ConcurrentskipList
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Design Principles:
+solid, Kiss, Yagni, dry and wet
+
+Design Patterns:
+Creational: Singleton, Factory, Abstract Factory, Builder
+Behavioural: Interpreter, Iterator, Mediator, Observer, Strategy.
+Structural: Adapter, Decorator, Composite, Facade, Proxy.
+
+
+======================================================================================================================================================
+
+double division (anyone num or den ==float )Infinity
+0.0/0 or 0/0.0 NaN
+static variables declare cheyakudadu inside a method
+		Integer a = 128, b = 128;
+		System.out.println(a == b); false
+above byte range
+
+		Integer c = 100, d = 100;
+		System.out.println(c == d);true
+
+public class Main
+{
+    int a;
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		Main main=new Main();
+		System.out.println(main.a);  //0
+	}
+}
+
+If both base and derived classes are caught as exceptions, 
+then the catch block of the derived class must appear before the base class. 
+If we put the base class first then the derived class catch block will never be reached. 
+“Compiler Error because base class exception is caught before derived class“
+Ex:we willdeclare ArithematicException and then RunTimeException
+
+static method can be accessed inside instance method directly but 
+we can't access instance method from static method directly. to do it we shoul create object for that type.
+we can access instance method inside instance method.
+
+*Shallow copy- both location and details are copied.
+*Deep copy- only details are copied. changes will not get reflected
+
+
+
+import static classname.method() classname is not used.
+
+10,20,child m1,parent m2;
+prints only overrided methods in child class
+prints all in parent class
+
+
+public class Main
+{
+    public static void go(Short n){
+        System.out.println("short");
+    }
+    public static void go(Long l){
+        System.out.println("Long");
+    }
+    public static void go(float l){
+        System.out.println("Int");
+    }
+    public static void main(String[] args) {
+        short x=7;
+        long y=10;
+        go(x);
+        go(y);
+    }
+}               //olp: Int Int first it checks for widening primitive if not present it will check for Wrapper class.
+
+In method overriding return type can be child of return type of method in parent class
+but parent of return type.
+
+no super.super.methodname/var in java only super.var/method.
+super() can be only used in first line of constructor only.
+
+
+parent private variables unnai 
+super.variable accessed in constructor and value changed.
+
+
+super.a----- variables of parent. 
+super(a)--constructor of parent.
+
+Enumset
+failesafe in java
+https://www.geeksforgeeks.org/concurrentskiplistset-in-java-with-examples/

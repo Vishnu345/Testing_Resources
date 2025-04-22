@@ -1,0 +1,127 @@
+Training page
+ppts
+
+disadvantages of loose coupling and tight coupling
+topics:
+linq
+Files
+Generics
+case when
+https://www.programiz.com/csharp-programming/files
+
+https://youtu.be/LlxgobNCLNo
+https://youtu.be/0VsSZmKU8-8
+https://dotnettutorials.net/lesson/concurrent-collection-in-csharp/
+https://youtu.be/Kl-9a47q3k4
+
+events 
+records
+
+select many
+manner of Execution
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/classification-of-standard-query-operators-by-manner-of-execution
+zip
+chunk
+ToLookup
+maxBy\
+
+properties
+automatic properties
+diff blw method and property
+extension methods
+IEnumerable and Iquerable
+
+selectMany
+
+            var ElementsList = driver.FindElements(By.XPath("//div[@class='_1YokD2 _3Mn1Gg']/div[@class='_1AtVbE col-12-12']//div[@class='_25b18c']/div[@class='_3Ay6Sb']/span[text()='15% off']"));
+            var PriceList = driver.FindElements(By.XPath("span[text()='15% off']//ancestor::div[@class='_25b18c']/div[@class='_30jeq3 _1_WHN1']"));
+            var PhoneNameList = driver.FindElements(By.XPath("span[text()='15% off']//ancestor::div[@class='_3pLy-c row']/div[@class='col col-7-12']/div[@class='_4rR01T']"));
+
+
+
+============================================================================================================================================================
+
+realme narzo N55
+PRojects
+1)pages
+2)Hooks
+3)Utility
+4)Specflow Project
+
+Loggers
+Reports
+=================================================================================================================================
+Delegates
+public GFG(int l, double w) : this()===> constructor Chaining
+word
+Excel sheet
+git
+
+serialization Formatter.Serialize(stream,obj)
+Des=(obj)Formatter.Deserialize(stream)
+
+order of linq, parallelizable 
+
+ OOPs
+restsharp
+cls
+cts
+fcl
+
+API automation start.
+httpclient in C# (not depend on thiry party, can make our framework)
+verbs 
+serialization and deserialization
+what are model classes and how to use them.
+Advantage Rest api multiple clients
+phone, tv, ipad, Wrb applications-->rest api--> db
+
+key from one api to another api
+key expires in the middle.- find Expires time and at that times we need to 
+make a request to token refresh before the access_token has expired
+network
+FetchXHR, 
+authorizations in another class
+set up
+
+
+
+virtual
+new
+
+Exception handling
+can ref keyword used for instance methods
+is, as and as, typeof is used for runtime type identification.
+"as" supports the operation of conversion at runtime without generating the exceptions
+The yield return statement returns the next object in the collection, which in this case is the next character in chrs.
+
+Enumerator or Enumerable ==same operation takes place
+Importing outer namespace does not import inner namespace in C#
+using -- importing namespace using in Exception handling
+In case of C#, strings are objects of the built-in string data type.
+stack evaluate expressions.
+Capacity in ArrayList
+Count returns the number of items
+
+Capacity tells the maximum number of items ArrayList can currently hold
+Properties can be marked as public, private, protected, internal, protected internal, or private protected. 
+from n in nums
+                      where n > 0 
+                      select Math.Sqrt(n);logical operators===> executes
+
+
+https://automationstepbystep.com/the-testing-quiz/
+
+protected Internal equals -> protected in java
+save memory we introduced topic , common , anything that doesn't depend on instance
+
+Abstract classes: not known methods
+Rules (Baseclass, child)
+interface - I can only have abstract methods, 100% dynamic polymorphism parent= child, 100% multiple inheritance
+exception go to exact catch block
+switch directly go to exact case block
+order of exception - specific to generic
+finally cannot return value but try and catch can do
+IL - can be executed in any language, using dll
+Release - fast, can't be debug
+ CLI , nuget is different

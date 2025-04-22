@@ -1,0 +1,79 @@
+Tasks:
+1) API
+2) Jenkins --> 2 courses
+3) cloudx --> 1 course
+4) Docker --> video portal 
+=====================================================================================================================================
+
+ThreadLocal--> to execcute Parallel Tests.
+===================================================================================================================================
+Scrollby==atobtoc
+scrollTo==atob
+===============================================================================================================================================
+
+http://192.168.0.105:4444
+
+Xpath vs Css selector
+Xpath css how find.
+Extensions for Xpath]]
+Edge Css selector y?
+Exceptions in Selenium
+enum String Xpath
+create locators with same xpath for 4 to 5 elements
+pass enum value in a method.
+Exception Fails-> Screenshot catch
+window handles using titles
+Assert Fails-->ss
+Lazy class.
+Action vs Actions
+Build vs Build.Perform.
+===============================================================================================================================
+
+Enum
+
+Assessment
+Review.
+driver.Quit() --> clears cookies,all
+===============================================================================================================================
+What project is for 
+how many Projects are present
+Base
+common methods create differenrt project utility or helpers classes.
+Helpers loosely coupled optimized
+common xpath use enum.
+==================================================================
+livingdoc test-assembly SpecFlowCalc.dll -t TestExecution.json
+==================================================================
+
+====================================
+Reports
+External Files Excel
+Navigate From one Page to another Page
+
+=============================================================================================================================
+Archtecture of restapi
+differ soap vs respapi
+webservices vs api
+postman 
+Client server architecture
+Pathparameter and Query parameter
+parameter 
+Cookie
+try catch
+logging
+ExecuteAsync
+Explore methods in RestClient, Restrequest, Restresponse
+JSONArray
+how to fetch data for different JSON ARRAY
+
+
+
+
+
+
+winApp driver
+ADO
+
+
+
+
